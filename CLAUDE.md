@@ -128,3 +128,5 @@ On server start (`app.py:88-99`):
 - **Error handling**: Search errors gracefully degrade to empty results
 - **CORS**: Configured for development with wildcard origins
 - **Static files**: Frontend served from `/` with no-cache headers for development
+- always use uv to run the server do not use pip directly
+- make sure to use uv to manage all dependencies
